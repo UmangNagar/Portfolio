@@ -29,12 +29,36 @@ nav{
     color: white;
 
 }
+.menu :hover{
+    padding: 15px 25px;
+    transition: 00.3s;
+}
+
 .menu a:last-child{
     background: #de3031;
     border-radius: 8px;
     letter-spacing: 2px;
     color: white;
 }
+.menu a:first-child{
+    background: #28380d;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+#linkedin{
+    background: #1f3bab;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+#git{
+    background: #0d0d0e;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    color: white;
+}
+
 .h-text{
     max-width: 500px;
     position: absolute;
